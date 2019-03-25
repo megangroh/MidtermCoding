@@ -40,7 +40,7 @@ public class Cuboid extends Rectangle {
 	}
 	
 	public int compareTo(Object cub) {
-		return (int)(this.volume()-((Cuboid)cub).volume()));
+		return (int)(this.volume()-((Cuboid)cub).volume());
 
 	}
 	
